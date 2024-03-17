@@ -1,5 +1,5 @@
 # USJT-CdC
-Projetos Graduação Bacharelado em Ciência da Computação - Universidade São Judas Tadeu
+Repósitório para Projetos da Graduação Bacharelado em Ciência da Computação - Universidade São Judas Tadeu
 Início Fev/2024 - Conclusão Dez/2028 (Previsto)
 
 # Atividades & Exercícios 

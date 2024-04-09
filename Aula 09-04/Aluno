@@ -1,33 +1,29 @@
 package aula0904oo;
 
-import java.util.Scanner;
-import javax.swing.JOptionPane;
-
-public class Aula0904OO {
-
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        // Instanciar Aluno
-        Aluno aluno1 = new Aluno();
-        System.out.println("Primeiro aluno criado");
-        System.out.println(aluno1.getRa());
-        System.out.println(aluno1.getNome());
-        System.out.println("");
-        // Insatanciar Curso
-        Curso curso1 = new Curso();
-        System.out.println(curso1.getCodigo());
-        System.out.println(curso1.getNome());
-        System.out.println(curso1.getPeriodo());
-        // Insatanciar Segundo Aluno
-        String ra_novo = JOptionPane.showInputDialog(null ,"Digite o RA do Aluno: ");
-        String nome_novo = JOptionPane.showInputDialog(null ,"Digite o Nome do Aluno: ");
-        System.out.println("");
-        Aluno aluno2 = new Aluno(ra_novo, nome_novo);
-        System.out.println("Segundo aluno criado");
-        System.out.println(aluno2.getRa());
-        System.out.println(aluno2.getNome());
-    }
-    
+public class Aluno {
+  private String ra;
+  private String nome;
+  
+  public Aluno(){
+    this.ra = "123451";
+    this.nome = "Bora Bil da Silva";
+  }
+  public Aluno(String ra, String nome){
+      this.ra = ra;
+      this.nome = nome;
+  }
+  
+  public void setRa(String ra){
+      this.ra = ra;
+  }
+  public String getRa(){
+      return this.ra;
+  }
+  public void setNome(String nome){
+      this.nome = nome;
+  }
+  public String getNome(){
+      return this.nome;
+  }
+  
 }
-

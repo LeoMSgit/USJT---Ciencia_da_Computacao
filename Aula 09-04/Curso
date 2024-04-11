@@ -7,7 +7,7 @@ public class Curso {
    
     public Curso(){
     this.codigo = 1515;
-    this.nome = "Bora Bil da Silva";
+    this.nome = "Curso de Java";
     this.periodo = "Primeiro";
   }
 

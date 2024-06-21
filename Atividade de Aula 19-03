@@ -1,8 +1,8 @@
-1) Monte um programa que realiza as seguintes operações:
-- Se o valor for negativo, apresente o valor absoluto
-- Se o valor for maior que 0 e menor ou igual a 20
-- Se o valor for maior que 20, monstrar o valor
-- Se o valor for zero, monstrar o valor
+//1) Monte um programa que realiza as seguintes operações:
+//- Se o valor for negativo, apresente o valor absoluto
+//- Se o valor for maior que 0 e menor ou igual a 20
+//- Se o valor for maior que 20, monstrar o valor
+//- Se o valor for zero, monstrar o valor
 
 package com.mycompany.aula1903;
 
@@ -28,19 +28,3 @@ public class Aula1903 {
 }
 }
 }
-
-
-
-Em Python:
-
-Numero=int(input("Digite o valor a ser avaliado: "))
-
-if Numero<0:
-    print("O resultado é", Numero*-1)
-else:
-    if Numero > 0 and Numero <= 20:
-        print("O resultado é", Numero*2)
-    elif Numero > 20:
-        print("O resultado é", Numero)
-    else:
-        print("O resultado é Zero")

@@ -1,4 +1,4 @@
-1) Desenvolver um programa Java para entrar com dois números do tipo real e fazer as operações aritméticas. No final mostrar os resultados.
+//1) Desenvolver um programa Java para entrar com dois números do tipo real e fazer as operações aritméticas. No final mostrar os resultados.
 
 public class Calculadora {
     public static void main(String[] args) {
@@ -19,18 +19,3 @@ public class Calculadora {
         System.out.println("O resultado da subtração é: " + subtracao);
         System.out.println("O resultado da multiplicação é: " + multiplicacao);
         System.out.println("O resultado da divisão é: " + divisao);
-
-
-Python:
-Numero1 = float(input("Digite o primeiro número: "))
-Numero2 = float(input("Digite o segundo número: "))
-
-soma = Numero1 + Numero2
-subtracao = numero1 - Numero2
-multiplicacao = Numero1 * Numero2
-divisao = Numero1 / Numero2
-
-print("O resultado da soma é:", soma)
-print("O resultado da subtração é:", subtracao)
-print("O resultado da multiplicação é:", multiplicacao)
-print("O resultado da divisão é:", divisao)
